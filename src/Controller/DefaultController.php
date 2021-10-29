@@ -20,7 +20,7 @@ class DefaultController
 
         echo "
             <h2>PDF generation successful!</h2>
-            <p>Check the file here: <a href=\"/public/$filename\">/public/$filename</a></p>
+            <p>Check the file here: <a href=\"$filename\">/public/$filename</a></p>
             <hr>
             <h2>About</h2>
             <h3>Embedding fonts</h3>
